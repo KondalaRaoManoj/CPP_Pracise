@@ -2,7 +2,6 @@ make.exe -f "G:\C++\24_09_2021\Makefile" --dry-run --always-make --keep-going --
 make.exe: Entering directory 'g:/C++/28_09_2021/CPP_Pracise'
  
 g++ -std=c++11 -Wall -o obj/extern_practisemain.o -c src/extern_practisemain.cpp
- 
 g++ -std=c++11 -Wall -o obj/extern_practisesecond.o -c src/extern_practisesecond.cpp
 g++ -std=c++11 -Wall -o 24_09_2021 obj/extern_practisemain.o obj/extern_practisesecond.o 
 make.exe: Leaving directory 'g:/C++/28_09_2021/CPP_Pracise'

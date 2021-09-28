@@ -7,7 +7,7 @@ for Windows.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Sep 28 23:05:42 2021
+# Make data base, printed on Tue Sep 28 23:21:24 2021
 
 # Variables
 
@@ -67,9 +67,9 @@ DEL = del
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3d59f92b-a9ac-4540-9632-daef7ac01d2f-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ed36deaa-1afd-4508-8fca-bd9974777920-sock
 # environment
-VSCODE_CWD = G:\C++\24_09_2021
+VSCODE_CWD = G:\C++\28_09_2021\CPP_Pracise
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
@@ -78,8 +78,6 @@ PATH = C:\MinGW\gcc\gcc\bin;C:\MinGW\gcc\gcc\libexec\gcc\x86_64-pc-mingw32\5.3.0
 COMMONPROGRAMW6432 = C:\Program Files\Common Files
 # makefile (from 'G:\C++\24_09_2021\Makefile', line 19)
 DEP = $(OBJ:$(OBJDIR)/%.o=%.d)
-# environment
-LC_ALL = C
 # environment
 PROCESSOR_ARCHITECTURE = AMD64
 # environment
@@ -103,7 +101,7 @@ SRCDIR = src
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6788_OHZMCSPHGKUCGHRB
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5980_FICJSWLELBALADMD
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -126,8 +124,6 @@ PUBLIC = C:\Users\Public
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
 # environment
 GOOGLE_DEFAULT_CLIENT_ID = no
-# environment
-VSCODE_CLI = 1
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\MANOJ\AppData\Roaming\Code\CachedData\7f6ab5485bbc008386c4386d08766667e155244e
 # environment
@@ -213,7 +209,7 @@ MAKEFILES :=
 # makefile (from 'G:\C++\24_09_2021\Makefile', line 14)
 OBJDIR = obj
 # environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
+LC_ALL = C
 # makefile (from 'G:\C++\24_09_2021\Makefile', line 26)
 WDELOBJ = $(SRC:$(SRCDIR)/%$(EXT)=$(OBJDIR)\\%.o)
 # environment
@@ -239,11 +235,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 6788
+VSCODE_PID = 5980
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-L2KGPA0J
 # variable set hash-table stats:
-# Load=115/1024=11%, Rehash=0, Collisions=24/168=14%
+# Load=113/1024=11%, Rehash=0, Collisions=22/166=13%
 
 # Pattern-specific Variable Values
 
@@ -288,7 +284,7 @@ all: 24_09_2021
 extern_practisemain.d: src/extern_practisemain.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisemain'
-#  Last modified 2021-09-28 23:05:41
+#  Last modified 2021-09-28 23:21:23
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -308,7 +304,7 @@ extern_practisemain.d: src/extern_practisemain.cpp
 extern_practisesecond.d: src/extern_practisesecond.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisesecond'
-#  Last modified 2021-09-28 23:05:40
+#  Last modified 2021-09-28 23:21:22
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -425,6 +421,6 @@ src/extern_practisesecond.cpp:
 # strcache performance: lookups = 65 / hit rate = 60%
 # hash-table stats:
 # Load=26/8192=0%, Rehash=0, Collisions=3/65=5%
-# Finished Make data base on Tue Sep 28 23:05:42 2021
+# Finished Make data base on Tue Sep 28 23:21:24 2021
 
  

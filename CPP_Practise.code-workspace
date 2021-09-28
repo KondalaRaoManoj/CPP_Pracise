@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "CPP_Pracise",
+			"path": "."
+		}
+	],
+	"settings": {
+		"makefile.extensionOutputFolder": "./.vscode"
+	}
+}
