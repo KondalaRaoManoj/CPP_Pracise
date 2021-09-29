@@ -6,8 +6,9 @@ for Windows.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Tue Sep 28 23:21:24 2021
+# Make data base, printed on Wed Sep 29 22:31:30 2021
 
 # Variables
 
@@ -28,8 +29,7 @@ MAKEFLAGS = pqrR
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
-?D = $(pats 
-ubst %/,%,$(patsubst %\,%,$(dir $?)))
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
@@ -39,7 +39,7 @@ HOMEDRIVE = C:
 # automatic
 ^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
 # makefile
-CURDIR := g:/C++/28_09_2021/CPP_Pracise
+CURDIR := g:/C++/29_09_2021/CPP_Pracise
 # default
 SHELL := C:/cygwin64/bin/sh.exe
 # makefile (from 'G:\C++\24_09_2021\Makefile', line 21)
@@ -52,8 +52,8 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 ONEDRIVE = C:\Users\MANOJ\OneDrive
 # environment
 PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# makefile (from 'extern_practisesecond.d', line 1)
-MAKEFILE_LIST :=  G:\C++\24_09_2021\Makefile extern_practisemain.d extern_practisesecond.d
+# makefile (from 'size.d', line 1)
+MAKEFILE_LIST :=  G:\C++\24_09_2021\Makefile extern_practisemain.d extern_practisesecond.d externalstructexample1.d variablelist.d size.d
 # environment
 TMP = C:\Users\MANOJ\AppData\Local\Temp
 # makefile (from 'G:\C++\24_09_2021\Makefile', line 7)
@@ -67,9 +67,9 @@ DEL = del
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ed36deaa-1afd-4508-8fca-bd9974777920-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-993d0e2d-3d69-4131-9c5a-cff57ac3829f-sock
 # environment
-VSCODE_CWD = G:\C++\28_09_2021\CPP_Pracise
+VSCODE_CWD = G:\C++\29_09_2021\CPP_Pracise
 # default
 MAKE_HOST := x86_64-w64-mingw32
 # environment
@@ -101,7 +101,7 @@ SRCDIR = src
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5980_FICJSWLELBALADMD
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5340_JPCFFSHEYLRWVBMT
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -235,11 +235,11 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 5980
+VSCODE_PID = 5340
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-L2KGPA0J
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=22/166=13%
+# Load=113/1024=11%, Rehash=0, Collisions=22/171=13%
 
 # Pattern-specific Variable Values
 
@@ -247,9 +247,9 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-L2KGPA0J
 
 # Directories
 
-# src (key g:/C++/28_09_2021/CPP_Pracise/src, mtime 1632861071): 4 files, no impossibilities.
+# src (key g:/C++/29_09_2021/CPP_Pracise/src, mtime 1632941850): 8 files, no impossibilities.
 
-# 4 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -272,6 +272,24 @@ G:\C++\24_09_2021\Makefile:
 #  File has been updated.
 #  Successfully updated.
 
+variablelist.d: src/variablelist.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'variablelist'
+#  Last modified 2021-09-29 22:31:26
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+externalstructexample1.d: src/externalstructexample1.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'externalstructexample1'
+#  Last modified 2021-09-29 22:31:26
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
 all: 24_09_2021
 #  Command line target.
 #  Implicit rule search has been done.
@@ -279,14 +297,31 @@ all: 24_09_2021
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
-# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+size.d: src/size.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'size'
+#  Last modified 2021-09-29 22:31:25
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
+	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
+
+# Not a target:
+src/variablelist.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-29 20:53:33
+#  File has been updated.
+#  Successfully updated.
 
 extern_practisemain.d: src/extern_practisemain.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisemain'
-#  Last modified 2021-09-28 23:21:23
+#  Last modified 2021-09-29 22:31:28
 #  File has been updated.
-#  Successfully updated.
+#  S 
+uccessfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
 	@$(CPP) $(CFLAGS) $< -MM -MT $(@:%.d=$(OBJDIR)/%.o) >$@
 
@@ -301,10 +336,20 @@ extern_practisemain.d: src/extern_practisemain.cpp
 #  Modification time never checked.
 #  File has not been updated.
 
+obj/size.o: src/size.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+obj/externalstructexample1.o: src/externalstructexample1.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 extern_practisesecond.d: src/extern_practisesecond.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisesecond'
-#  Last modified 2021-09-28 23:21:22
+#  Last modified 2021-09-29 22:31:27
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -313,9 +358,27 @@ extern_practisesecond.d: src/extern_practisesecond.cpp
 obj/extern_practisemain.o: src/extern_practisemain.cpp src/extern_practisemain.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisemain'
-#  Last modified 2021-09-25 00:37:31
+#  Last modified 2021-09-29 20:53:17
 #  File has been updated.
-#  Successfully updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/extern_practisemain.o
+# automatic
+# % := 
+# automatic
+# * := extern_practisemain
+# automatic
+# + := src/extern_practisemain.cpp src/extern_practisemain.cpp
+# automatic
+# | := 
+# automatic
+# < := src/extern_practisemain.cpp
+# automatic
+# ^ := src/extern_practisemain.cpp
+# automatic
+# ? := src/extern_practisemain.cpp
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/15=7%
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
 	$(CC) $(CXXFLAGS) -o $@ -c $<
 
@@ -327,17 +390,7 @@ cleanw:
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 64):
 	$(DEL) $(WDELOBJ) $(DEP) $(APPNAME)$(EXE)
 
-obj/extern_practisesecond.o: src/extern_practisesecond.cpp src/extern_practisesecond.cpp
-#  Implicit rule search has been done.
-#  Implicit/static pattern stem: 'extern_practisesecond'
-#  Last modified 2021-09-25 00:37:32
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
-	$(CC) $(CXXFLAGS) -o $@ -c $<
-
-# Not a target:
-.SUFFIXES:
+obj/extern_practisesecond.o: src/extern_practisesecond.cpp
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -350,30 +403,13 @@ cleandep:
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 58):
 	$(RM) $(DEP)
 
-24_09_2021: obj/extern_practisemain.o obj/extern_practisesecond.o
+24_09_2021: obj/extern_practisemain.o obj/extern_practisesecond.o obj/externalstructexample1.o obj/variablelist.o obj/size.o
 #  Implicit rule search has not been done.
-#  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
-# automatic
-# @ := 24_09_2021
-# automatic
-# % := 
-# automatic
-# * := 
-# automatic
-# + := obj/extern_practisemain.o obj/extern_practisesecond.o
-# automatic
-# | := 
-# automatic
-# < := obj/extern_practisemain.o
-# automatic
-# ^ := obj/extern_practisemain.o obj/extern_practisesecond.o
-# automatic
-# ? := obj/extern_practisemain.o obj/extern_practisesecond.o
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/16=6%
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 36):
 	$(CC) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
@@ -385,6 +421,11 @@ cleandepw:
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 69):
 	$(DEL) $(DEP)
 
+obj/variablelist.o: src/variablelist.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
 clean:
 #  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
@@ -394,33 +435,48 @@ clean:
 	$(RM) $(DELOBJ) $(DEP) $(APPNAME)
 
 # Not a target:
+src/size.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-29 20:53:00
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+src/externalstructexample1.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2021-09-29 20:57:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
 src/extern_practisemain.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2021-09-25 00:37:10
+#  Last modified 2021-09-29 20:57:56
 #  File has been updated.
 #  Successfully updated.
 
 # Not a target:
 src/extern_practisesecond.cpp:
 #  Implicit rule search has been done.
-#  Last modified 2021-09-25 00:37:01
+#  Last modified 2021-09-29 20:17:30
 #  File has been updated.
 #  Successfully updated.
 
 # files hash-table stats:
-# Load=16/1024=2%, Rehash=0, Collisions=0/59=0%
+# Load=25/1024=2%, Rehash=0, Collisions=0/86=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 26 / storage = 381 B / avg = 14 B
-# current buf: size = 8162 B / used = 381 B / count = 26 / avg = 14 B
+# strcache buffers: 1 (0) / strings = 42 / storage = 657 B / avg = 15 B
+# current buf: size = 8162 B / used = 657 B / count = 42 /  
+avg = 15 B
 
-# strcache performance: lookups = 65 / hit rate = 60%
+# strcache performance: lookups = 92 / hit rate = 54%
 # hash-table stats:
-# Load=26/8192=0%, Rehash=0, Collisions=3/65=5%
-# Finished Make data base on Tue Sep 28 23:21:24 2021
+# Load=42/8192=1%, Rehash=0, Collisions=3/92=3%
+# Finished Make data base on Wed Sep 29 22:31:30 2021
 
  
