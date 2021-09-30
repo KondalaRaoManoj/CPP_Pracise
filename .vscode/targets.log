@@ -7,7 +7,7 @@ for Windows.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep 30 23:08:32 2021
+# Make data base, printed on Thu Sep 30 23:25:53 2021
 
 # Variables
 
@@ -28,8 +28,7 @@ MAKEFLAGS = pqrR
 # environment
 VSCODE_LOG_NATIVE = false
 # automatic
-?D = $(pats 
-ubst %/,%,$(patsubst %\,%,$(dir $?)))
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
@@ -153,7 +152,8 @@ CC = g++
 # default
 MAKE_VERSION := 4.1
 # makefile
-.DEFAULT_GOAL := all
+.DE 
+FAULT_GOAL := all
 # environment
 GOOGLE_DEFAULT_CLIENT_SECRET = no
 # environment
@@ -275,7 +275,7 @@ G:\C++\24_09_2021\Makefile:
 variablelist.d: src/variablelist.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'variablelist'
-#  Last modified 2021-09-30 23:08:30
+#  Last modified 2021-09-30 23:25:51
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -284,7 +284,7 @@ variablelist.d: src/variablelist.cpp
 externalstructexample1.d: src/externalstructexample1.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'externalstructexample1'
-#  Last modified 2021-09-30 23:08:31
+#  Last modified 2021-09-30 23:25:51
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -302,7 +302,7 @@ all: 24_09_2021
 size.d: src/size.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'size'
-#  Last modified 2021-09-30 23:08:30
+#  Last modified 2021-09-30 23:25:50
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -318,7 +318,7 @@ src/variablelist.cpp:
 extern_practisemain.d: src/extern_practisemain.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisemain'
-#  Last modified 2021-09-30 23:08:31
+#  Last modified 2021-09-30 23:25:52
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -338,7 +338,7 @@ extern_practisemain.d: src/extern_practisemain.cpp
 obj/size.o: src/size.cpp src/size.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'size'
-#  Last modified 2021-09-30 23:08:20
+#  Last modified 2021-09-30 23:23:24
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
@@ -347,7 +347,7 @@ obj/size.o: src/size.cpp src/size.cpp
 obj/externalstructexample1.o: src/externalstructexample1.cpp src/externalstructexample1.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'externalstructexample1'
-#  Last modified 2021-09-30 23:08:18
+#  Last modified 2021-09-30 23:23:22
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
@@ -356,7 +356,7 @@ obj/externalstructexample1.o: src/externalstructexample1.cpp src/externalstructe
 extern_practisesecond.d: src/extern_practisesecond.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisesecond'
-#  Last modified 2021-09-30 23:08:31
+#  Last modified 2021-09-30 23:25:52
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 40):
@@ -365,7 +365,7 @@ extern_practisesecond.d: src/extern_practisesecond.cpp
 obj/extern_practisemain.o: src/extern_practisemain.cpp src/extern_practisemain.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisemain'
-#  Last modified 2021-09-30 23:08:16
+#  Last modified 2021-09-30 23:23:19
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
@@ -382,7 +382,7 @@ cleanw:
 obj/extern_practisesecond.o: src/extern_practisesecond.cpp src/extern_practisesecond.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'extern_practisesecond'
-#  Last modified 2021-09-30 23:08:17
+#  Last modified 2021-09-30 23:23:21
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
@@ -391,7 +391,8 @@ obj/extern_practisesecond.o: src/extern_practisesecond.cpp src/extern_practisese
 # Not a target:
 .SUFFIXES:
 #  Implicit rule search has not been done.
-#  Modification time never checked.
+#  Modification time 
+ never checked.
 #  File has not been updated.
 
 cleandep:
@@ -440,7 +441,7 @@ cleandepw:
 obj/variablelist.o: src/variablelist.cpp src/variablelist.cpp
 #  Implicit rule search has been done.
 #  Implicit/static pattern stem: 'variablelist'
-#  Last modified 2021-09-30 23:08:19
+#  Last modified 2021-09-30 23:23:23
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'G:\C++\24_09_2021\Makefile', line 47):
@@ -491,12 +492,11 @@ src/extern_practisesecond.cpp:
 # No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 42 / storage = 657 B / avg = 15 B
-# current buf: size = 8162 B / used = 657 B / 
- count = 42 / avg = 15 B
+# current buf: size = 8162 B / used = 657 B / count = 42 / avg = 15 B
 
 # strcache performance: lookups = 105 / hit rate = 60%
 # hash-table stats:
 # Load=42/8192=1%, Rehash=0, Collisions=3/105=3%
-# Finished Make data base on Thu Sep 30 23:08:32 2021
+# Finished Make data base on Thu Sep 30 23:25:53 2021
 
  
