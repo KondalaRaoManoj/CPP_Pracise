@@ -1,12 +1,6 @@
-make.exe all -f "G:\C++\24_09_2021\Makefile" --dry-run --always-make --keep-going --print-directory
+make.exe all -f "G:\C++\24_09_2021\Makefile" --dry-run --keep-going --print-directory
 make.exe: Entering directory 'g:/C++/29_09_2021/CPP_Pracise'
  
-g++ -std=c++11 -Wall -o obj/extern_practisemain.o -c src/extern_practisemain.cpp
- 
-g++ -std=c++11 -Wall -o obj/extern_practisesecond.o -c src/extern_practisesecond.cpp
-g++ -std=c++11 -Wall -o obj/externalstructexample1.o -c src/externalstructexample1.cpp
-g++ -std=c++11 -Wall -o obj/variablelist.o -c src/variablelist.cpp
-g++ -std=c++11 -Wall -o obj/size.o -c src/size.cpp
 g++ -std=c++11 -Wall -o 24_09_2021 obj/extern_practisemain.o obj/extern_practisesecond.o obj/externalstructexample1.o obj/variablelist.o obj/size.o 
 make.exe: Leaving directory 'g:/C++/29_09_2021/CPP_Pracise'
  
