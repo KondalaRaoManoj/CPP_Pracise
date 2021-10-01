@@ -10,7 +10,12 @@
             "cStandard": "gnu11",
             "cppStandard": "gnu++98",
             "intelliSenseMode": "windows-gcc-x64",
-            "configurationProvider": "ms-vscode.makefile-tools"
+            "configurationProvider": "ms-vscode.makefile-tools",
+            "browse": {
+                "path": ["${workspaceFolder}", "C:\\MinGW\\gcc\\gcc\\include\\c++\\5.3.0"],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+              }
         }
     ],
     "version": 4

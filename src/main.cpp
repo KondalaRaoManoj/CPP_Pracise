@@ -7,7 +7,7 @@ extern void ext_time();
 extern void ext_structexample();
 extern void extern_classpractise1();
 extern void extern_classpractise2();
-
+extern void extern_classpracprivate();
 main() 
 {
    count = 5;
@@ -18,5 +18,6 @@ main()
    ext_structexample();
    extern_classpractise1();   
    extern_classpractise2(); 
+   extern_classpracprivate();
 }
 
