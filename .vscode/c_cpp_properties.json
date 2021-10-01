@@ -3,7 +3,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "${default}"
+                "${default}",
+                "C:\\MinGW\\gcc\\gcc\\include\\c++\\5.3.0"
             ],
             "compilerPath": "C:\\MinGW\\gcc\\gcc\\bin\\gcc.exe",
             "cStandard": "gnu11",

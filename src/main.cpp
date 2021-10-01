@@ -19,3 +19,4 @@ main()
    extern_classpractise1();   
    extern_classpractise2(); 
 }
+
