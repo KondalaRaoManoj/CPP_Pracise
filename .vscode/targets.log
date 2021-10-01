@@ -10,7 +10,7 @@ for Windows.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Oct 01 10:48:43 2021
+# Make data base, printed on Fri Oct 01 10:52:49 2021
 
 # Variables
 
@@ -59,7 +59,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-2eb58b6d-7145-456e-bf23-6b25401e71ab-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7c5d345a-6ddf-435e-ae0a-63a0280d2181-sock
 # environment
 VSCODE_CWD = G:\C++\29_09_2021\CPP_Pracise
 # default
@@ -261,6 +261,6 @@ all:
 # strcache performance: lookups = 6 / hit rate = 33%
 # hash-table stats:
 # Load=4/8192=0%, Rehash=0, Collisions=0/6=0%
-# Finished Make data base on Fri Oct 01 10:48:43 2021
+# Finished Make data base on Fri Oct 01 10:52:49 2021
 
  
