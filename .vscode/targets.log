@@ -10,7 +10,7 @@ for Windows.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Oct 01 10:52:49 2021
+# Make data base, printed on Fri Oct 01 11:53:04 2021
 
 # Variables
 
@@ -59,7 +59,7 @@ PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7c5d345a-6ddf-435e-ae0a-63a0280d2181-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7c338f1f-fb28-47dd-b076-a766f8552064-sock
 # environment
 VSCODE_CWD = G:\C++\29_09_2021\CPP_Pracise
 # default
@@ -87,7 +87,7 @@ OPENMODELICAHOME = C:\OpenModelica1.11.0-dev.beta1-64bit\
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_12864_JHCIWZEVVXBZOSIU
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6120_WREAWYXYTDFQIXRI
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
@@ -207,7 +207,7 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-VSCODE_PID = 12864
+VSCODE_PID = 6120
 # environment
 USERDOMAIN_ROAMINGPROFILE = LAPTOP-L2KGPA0J
 # variable set hash-table stats:
@@ -261,6 +261,6 @@ all:
 # strcache performance: lookups = 6 / hit rate = 33%
 # hash-table stats:
 # Load=4/8192=0%, Rehash=0, Collisions=0/6=0%
-# Finished Make data base on Fri Oct 01 10:52:49 2021
+# Finished Make data base on Fri Oct 01 11:53:04 2021
 
  

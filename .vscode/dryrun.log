@@ -1,10 +1,9 @@
 make.exe all -f "G:\C++\24_09_2021\Makefile" --dry-run --always-make --keep-going --print-directory
 make.exe: Entering directory 'g:/C++/29_09_2021/CPP_Pracise'
+make.exe: Leaving directory 'g:/C++/29_09_2021/CPP_Pracise'
  
 make.exe: G:\C++\24_09_2021\Makefile: No such file or directory
 make.exe: *** No rule to make target 'G:\C++\24_09_2021\Makefile'.
 make.exe: Failed to remake makefile 'G:\C++\24_09_2021\Makefile'.
 make.exe: *** No rule to make target 'all'.
- 
-make.exe: Leaving directory 'g:/C++/29_09_2021/CPP_Pracise'
  
