@@ -11,6 +11,7 @@ extern void extern_classpracprivate();
 extern void extern_classpracprotected();
 extern void extern_classconstructorpractise();
 extern void extern_classparamconstruc();
+extern void extern_classdestructor1();
 main() 
 {
    count = 5;
@@ -19,11 +20,11 @@ main()
    ext_variablecheck();
    ext_time();
    ext_structexample();
-   extern_classpractise1();   
-   extern_classpractise2(); 
-   extern_classpracprivate();
-   extern_classpracprotected();   
+   //extern_classpractise1();   
+   //extern_classpractise2(); 
+   //extern_classpracprivate();
+   //extern_classpracprotected();   
    //extern_classconstructorpractise();
-   extern_classparamconstruc();   
+   //extern_classparamconstruc();
+   //extern_classdestructor1();   
 }
-
