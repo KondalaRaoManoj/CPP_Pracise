@@ -1,21 +1,15 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "Linux",
             "includePath": [
-                "${default}",
-                "C:\\MinGW\\gcc\\gcc\\include\\c++\\5.3.0"
+                "${workspaceFolder}/**"
             ],
-            "compilerPath": "C:\\MinGW\\gcc\\gcc\\bin\\gcc.exe",
-            "cStandard": "gnu11",
-            "cppStandard": "gnu++98",
-            "intelliSenseMode": "windows-gcc-x64",
-            "configurationProvider": "ms-vscode.makefile-tools",
-            "browse": {
-                "path": ["${workspaceFolder}", "C:\\MinGW\\gcc\\gcc\\include\\c++\\5.3.0"],
-                "limitSymbolsToIncludedHeaders": true,
-                "databaseFilename": ""
-              }
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
