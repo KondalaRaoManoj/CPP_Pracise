@@ -5,7 +5,7 @@
             "name": "Debug Program",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/bin/my_program",
+            "program": "${workspaceFolder}/bin/CPP_PRACISE.elf",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
