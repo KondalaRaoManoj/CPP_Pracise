@@ -1,4 +1,11 @@
 #include <iostream>
+#include <cstdio> // For popen()
+#include <memory>
+#include <array>
+#include <DBMS_Close.h>
+#include <DBMS_Init.h>
+using namespace std;
+
 int count ;
 extern void write_extern();
 extern void ext_size();
@@ -14,6 +21,8 @@ extern void extern_classconstructorpractise();
 //extern void extern_classdestructor1();
 int main() 
 {
+
+
    count = 5;
    write_extern();
    ext_size();
@@ -27,5 +36,7 @@ int main()
    //extern_classconstructorpractise();
    //extern_classparamconstruc();
    //extern_classdestructor1();  
-   return 1; 
+
+
+   return 0; 
 }
