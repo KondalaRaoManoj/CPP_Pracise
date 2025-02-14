@@ -4,9 +4,10 @@
 #include <array>
 #include <DBMS_Close.h>
 #include <DBMS_Init.h>
+#include <GUI_View.h>
 using namespace std;
 
-int count ;
+int local_count ;
 extern void write_extern();
 extern void ext_size();
 extern void ext_variablecheck();
@@ -23,7 +24,7 @@ int main()
 {
 
 
-   count = 5;
+   local_count = 5;
    write_extern();
    ext_size();
    ext_variablecheck();
