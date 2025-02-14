@@ -13,7 +13,8 @@ HEADER_DIRS = $(shell find . -type f -name "*.h" -exec dirname {} \; | sort -u)
 INC_FLAGS = $(foreach dir, $(HEADER_DIRS), -I$(dir))
 
 # Files
-SRCS = $(wildcard $(SRC_DIR)/**/*.cpp) $(wildcard $(SRC_DIR)/*.cpp)
+#SRCS = $(wildcard $(SRC_DIR)/**/*.cpp) $(wildcard $(SRC_DIR)/*.cpp)
+SRCS = $(shell find $(SRC_DIR) -name '*.cpp')
 OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRCS))
 TARGET = $(BIN_DIR)/CPP_PRACISE.elf
 
@@ -25,7 +26,7 @@ $(TARGET): $(OBJS)
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
-	mkdir -p $(OBJ_DIR)
+	@mkdir -p $(dir $@)  # Create the necessary directories
 	$(CXX) $(CXXFLAGS) $(INC_FLAGS) -c $< -o $@
 
 clean:

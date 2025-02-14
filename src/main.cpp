@@ -20,16 +20,21 @@ extern void extern_classpracprotected();
 extern void extern_classconstructorpractise();
 //extern void extern_classparamconstruc();
 //extern void extern_classdestructor1();
-int main() 
+int main(int argc, char **argv) 
 {
 
-
+   int gui_return;
    local_count = 5;
    write_extern();
    ext_size();
    ext_variablecheck();
    ext_time();
    ext_structexample();
+
+   GUI_View GUI_Win;
+
+   gui_return=GUI_Win.GUI_MainWindow(argc,argv);
+
    //extern_classpractise1();   
    //extern_classpractise2(); 
    //extern_classpracprivate();
@@ -39,5 +44,5 @@ int main()
    //extern_classdestructor1();  
 
 
-   return 0; 
+   return gui_return; 
 }
