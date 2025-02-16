@@ -8,7 +8,7 @@
 using namespace std;
 
 int local_count ;
-extern void write_extern();
+extern void write_extern(); 
 extern void ext_size();
 extern void ext_variablecheck();
 extern void ext_time();
@@ -25,11 +25,11 @@ int main(int argc, char **argv)
 
    int gui_return;
    local_count = 5;
-   write_extern();
-   ext_size();
-   ext_variablecheck();
-   ext_time();
-   ext_structexample();
+   //write_extern();
+   //ext_size();
+   //ext_variablecheck();
+   //ext_time();
+   //ext_structexample();
 
    GUI_View GUI_Win;
 
