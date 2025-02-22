@@ -2,9 +2,9 @@
 #include <cstdio> // For popen()
 #include <memory>
 #include <array>
-#include <DBMS_Close.h>
-#include <DBMS_Init.h>
-#include <GUI_View.h>
+//#include <DBMS_Close.h>
+//#include <DBMS_Init.h>
+#include <GUI/GUI_View.h>
 using namespace std;
 
 int local_count ;

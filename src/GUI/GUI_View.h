@@ -5,7 +5,6 @@
 
 
 
-
 class GUI_View{
 
 
