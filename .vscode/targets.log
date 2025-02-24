@@ -1,217 +1,251 @@
-make.exe all -f "G:\C++\24_09_2021\Makefile" --print-data-base --no-builtin-variables --no-builtin-rules --question
-make.exe: G:\C++\24_09_2021\Makefile: No such file or directory
-make.exe: *** No rule to make target 'G:\C++\24_09_2021\Makefile'.  Stop.
- 
-# GNU Make 4.1
-This program is built by Equation Solution <http://www.Equation.com>
-for Windows.
-# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+Makefile:39: *** mixed implicit and normal rules: deprecated syntax
+
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Oct 01 11:53:04 2021
+# Make data base, printed on Sun Feb 23 22:12:44 2025
 
 # Variables
 
-# 'override' directive
-GNUMAKEFLAGS := 
-# automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
-# automatic
-?F = $(notdir $?)
+# makefile (from 'Makefile', line 8)
+UI_DIR = src/GUI  
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 7)
+SRC_DIR = src
+# environment
+LC_NAME = de_DE.UTF-8
+# environment
+LC_NUMERIC = de_DE.UTF-8
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = /home/kondalaraomanoj
+# environment
+LC_ADDRESS = de_DE.UTF-8
 # default
-.SHELLFLAGS := -c
-# makefile
-MAKEFLAGS = prR
+MAKE_COMMAND := make
 # environment
-VSCODE_LOG_NATIVE = false
+QT_ACCESSIBILITY = 1
 # automatic
-?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# automatic
-@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+@D = $(patsubst %/,%,$(dir $@))
+# makefile (from 'Makefile', line 9)
+OBJ_DIR = obj
 # environment
-HOMEDRIVE = C:
-# automatic
-@F = $(notdir $@)
-# automatic
-^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
-# makefile
-CURDIR := g:/C++/29_09_2021/CPP_Pracise
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# makefile (from 'Makefile', line 14)
+INC_FLAGS = $(foreach dir, $(HEADER_DIRS), -I$(dir))
 # default
-SHELL := C:/cygwin64/bin/sh.exe
+.VARIABLES := 
 # environment
-WINDIR = C:\WINDOWS
+PWD = /home/kondalaraomanoj/Projects/CPP_PRACTISE/CPP_Pracise
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-ONEDRIVE = C:\Users\MANOJ\OneDrive
-# environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
-# makefile
-MAKEFILE_LIST := 
-# environment
-TMP = C:\Users\MANOJ\AppData\Local\Temp
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-PROGRAMW6432 = C:\Program Files
-# environment
-PROGRAMDATA = C:\ProgramData
-# environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-7c338f1f-fb28-47dd-b076-a766f8552064-sock
-# environment
-VSCODE_CWD = G:\C++\29_09_2021\CPP_Pracise
-# default
-MAKE_HOST := x86_64-w64-mingw32
-# environment
-PATH = C:\MinGW\gcc\gcc\bin;C:\MinGW\gcc\gcc\libexec\gcc\x86_64-pc-mingw32\5.3.0;C:\Users\MANOJ\gcc\bin;C:\Users\MANOJ\gcc\libexec\gcc\x86_64-pc-mingw32\5.3.0;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Perl64\site\bin;C:\Perl64\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Common Files\Ulead Systems\MPEG;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\MANOJ\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\MANOJ\AppData\Local\Programs\Python\Python39\;C:\Users\MANOJ\AppData\Local\Microsoft\WindowsApps;C:\cygwin64\bin;C:\Users\MANOJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;
-# environment
-COMMONPROGRAMW6432 = C:\Program Files\Common Files
-# environment
-PROCESSOR_ARCHITECTURE = AMD64
-# environment
-USERPROFILE = C:\Users\MANOJ
-# environment
-ALLUSERSPROFILE = C:\ProgramData
-# environment
-VSCODE_LOG_STACK = false
-# environment
-NUMBER_OF_PROCESSORS = 4
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync load
-# environment
-OPENMODELICAHOME = C:\OpenModelica1.11.0-dev.beta1-64bit\
+XDG_DATA_DIRS = /usr/share/Lubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_6120_WREAWYXYTDFQIXRI
+VSCODE_CODE_CACHE_PATH = /home/kondalaraomanoj/.config/Code/CachedData/e54c774e0add60467559eb0d1e229c6452cf8447
 # environment
-VSCODE_PIPE_LOGGING = true
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
 # environment
-COMPUTERNAME = LAPTOP-L2KGPA0J
+LANG = C
 # environment
-EQ_LIBRARY_PATH = C:\MinGW\gcc\gcc\x86_64-w64-mingw32\lib;C:\Users\MANOJ\gcc\x86_64-w64-mingw32\lib
+XAUTHORITY = /tmp/xauth_MzDQHH
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/kondalaraomanoj/Projects/CPP_PRACTISE/CPP_Pracise
+# makefile (from 'Makefile', line 21)
+SRCS = $(shell find $(SRC_DIR) -name '*.cpp')
 # environment
-GOOGLE_API_KEY = no
+LESSOPEN = | /usr/bin/lesspipe %s
 # environment
-PROGRAMFILES = C:\Program Files
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'Makefile', line 17)
+UI_FILES = $(shell find $(UI_DIR) -name '*.ui')
 # environment
-DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+MFLAGS = -pqrR
 # environment
-ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+SSH_AUTH_SOCK = /tmp/ssh-y8R5nNK7q6sX/agent.1649
+# default
+.SHELLFLAGS := -c
 # environment
-USERNAME = MANOJ
+XDG_CONFIG_DIRS = /etc/xdg/xdg-Lubuntu:/etc/xdg:/etc:/usr/share
+# automatic
++D = $(patsubst %/,%,$(dir $+))
 # environment
-PUBLIC = C:\Users\Public
+XDG_SESSION_DESKTOP = LXQt
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
 # environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+VSCODE_PID = 40230
 # environment
-GOOGLE_DEFAULT_CLIENT_ID = no
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\MANOJ\AppData\Roaming\Code\CachedData\7f6ab5485bbc008386c4386d08766667e155244e
+SAL_USE_VCLPLUGIN = qt5
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+XDG_DATA_HOME = /home/kondalaraomanoj/.local/share
+# automatic
+*F = $(notdir $*)
 # environment
-COMMONPROGRAMFILES = C:\Program Files\Common Files
+QT_QPA_PLATFORMTHEME = lxqt
 # environment
-LOGONSERVER = \\LAPTOP-L2KGPA0J
+CHROME_DESKTOP = code.desktop
 # environment
-ONEDRIVECONSUMER = C:\Users\MANOJ\OneDrive
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-gb","resolvedLanguage":"en","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'Makefile', line 22)
+OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJ_DIR)/%.o, $(SRCS))
 # environment
-USERDOMAIN = LAPTOP-L2KGPA0J
+LXQT_SESSION_CONFIG = session
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 0
 # environment
 MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # default
-MAKECMDGOALS := all
-# default
-MAKE_VERSION := 4.1
-# makefile
-.DEFAULT_GOAL := 
+MAKEFILES := 
 # environment
-GOOGLE_DEFAULT_CLIENT_SECRET = no
-# environment
-PROGRAMFILES(X86) = C:\Program Files (x86)
+LC_MONETARY = de_DE.UTF-8
 # automatic
-%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+^F = $(notdir $^)
+# makefile (from 'Makefile', line 18)
+UI_HEADERS = $(patsubst $(UI_DIR)/%.ui, $(UI_DIR)/ui_%.h, $(UI_FILES))
 # environment
-LOCALAPPDATA = C:\Users\MANOJ\AppData\Local
+LC_TIME = de_DE.UTF-8
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
-# default
-MAKE_COMMAND := make.exe
+XDG_CONFIG_HOME = /home/kondalaraomanoj/.config
 # environment
-OPENMODELICALIBRARY = C:\OpenModelica1.11.0-dev.beta1-64bit\lib\omlibrary
-# default
-.VARIABLES := 
+LC_TELEPHONE = de_DE.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
-*F = $(notdir $*)
+?F = $(notdir $?)
 # environment
-PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+GTK_CSD = 0
 # environment
-OS = Windows_NT
+XDG_SEAT = seat0
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\0cdaa12017984af794c7f56947166b29-1.60.2-main-sock
-# environment
-HOMEPATH = \Users\MANOJ
-# environment
-COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
-# environment
-PROMPT = $P$G
-# environment
-MFLAGS = -prR
-# automatic
-*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
-# environment
-SYSTEMROOT = C:\WINDOWS
-# automatic
-+D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+XDG_CURRENT_DESKTOP = LXQt
 # automatic
 +F = $(notdir $+)
 # environment
-APPDATA = C:\Users\MANOJ\AppData\Roaming
+XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-TEMP = C:\Users\MANOJ\AppData\Local\Temp
+DESKTOP_SESSION = Lubuntu
 # environment
-COMSPEC = C:\WINDOWS\system32\cmd.exe
+ORIGINAL_XDG_CURRENT_DESKTOP = LXQt
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+BROWSER = firefox
+# environment
+LOGNAME = kondalaraomanoj
+# environment
+SAL_VCL_QT5_USE_CAIRO = true
+# environment
+XDG_VTNR = 2
+# makefile
+.DEFAULT_GOAL := all
+# environment
+DISPLAY = :0
+# environment
+USER = kondalaraomanoj
 # default
-MAKEFILES := 
-# automatic
-<F = $(notdir $<)
+MAKE_VERSION := 4.3
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'Makefile', line 4)
+LDFLAGS = $(shell pkg-config --libs Qt5Core Qt5Gui Qt5Widgets)
+# makefile (from 'Makefile', line 13)
+HEADER_DIRS = $(shell find . -type f -name "*.h" -exec dirname {} \; | sort -u)
 # environment
-LC_ALL = C
+LC_MEASUREMENT = de_DE.UTF-8
 # environment
-CONFIGSETROOT = C:\WINDOWS\ConfigSetRoot
-# automatic
-^F = $(notdir $^)
-# default
-SUFFIXES := 
+SSH_AGENT_PID = 1714
 # environment
-SYSTEMDRIVE = C:
+_ = /usr/share/code/code
 # environment
-SESSIONNAME = Console
+LC_PAPER = de_DE.UTF-8
 # environment
-PROCESSOR_REVISION = 3d04
+XDG_RUNTIME_DIR = /run/user/1000
 # environment
-VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GTK_OVERLAY_SCROLLING = 0
+# environment
+QT_PLATFORM_PLUGIN = lxqt
+# environment
+XDG_SESSION_CLASS = user
+# environment
+HOME = /home/kondalaraomanoj
+# makefile (from 'Makefile', line 10)
+BIN_DIR = bin
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-2619d2e0-1.97-main.sock
+# environment
+TERM = qterminal
+# environment
+XDG_SESSION_ID = 4
 # default
 .RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'Makefile', line 23)
+TARGET = $(BIN_DIR)/CPP_PRACISE.elf
 # environment
-LANG = C
+XDG_CACHE_HOME = /home/kondalaraomanoj/.cache
+# makefile (from 'Makefile', line 3)
+CXXFLAGS = -Wall -Wextra -std=c++17 -g -fPIC $(shell pkg-config --cflags Qt5Core Qt5Gui Qt5Widgets)
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# makefile (from 'Makefile', line 2)
+CXX = g++
 # environment
-PROCESSOR_LEVEL = 6
+XDG_MENU_PREFIX = lxqt-
 # environment
-VSCODE_PID = 6120
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
-USERDOMAIN_ROAMINGPROFILE = LAPTOP-L2KGPA0J
+LC_IDENTIFICATION = de_DE.UTF-8
 # variable set hash-table stats:
-# Load=98/1024=10%, Rehash=0, Collisions=14/113=12%
+# Load=116/1024=11%, Rehash=0, Collisions=11/184=6%
 
 # Pattern-specific Variable Values
 
@@ -219,24 +253,114 @@ USERDOMAIN_ROAMINGPROFILE = LAPTOP-L2KGPA0J
 
 # Directories
 
+# src (device 2050, inode 36454225): 2 files, no impossibilities so far.
+# . (device 2050, inode 36454063): 15 files, no impossibilities.
 
-# No files, no impossibilities in 0 directories.
+# 17 files, no impossibilities in 2 directories.
 
 # Implicit Rules
 
-# No implicit rules.
+obj/%.o: src/%.cpp
+#  recipe to execute (from 'Makefile', line 35):
+	@mkdir -p $(dir $@)  # Create the necessary directories
+	$(CXX) $(CXXFLAGS) $(INC_FLAGS) -c $< -o $@
 
+# 1 implicit rules, 0 (0.0%) terminal.
 # Files
 
 # Not a target:
-G:\C++\24_09_2021\Makefile:
-#  Implicit rule search has been done.
-#  File does not exist.
+obj/extern_classpractise1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
 #  File has not been updated.
 
 # Not a target:
-all:
-#  Command line target.
+src/extern_classpracprotected.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2025-02-23 22:10:18.987058939
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/ext_time.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2025-02-23 22:10:18.929058597
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+obj/variablelist.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 43):
+	find $(OBJ_DIR) -type f -name '*.o' -delete
+	find $(BIN_DIR) -type f -name '*.elf' -delete
+	find $(UI_DIR) -type f -name 'ui_*.h' -delete
+
+# 'override' directive
+obj/extern_classpracprotected.o: .SHELLSTATUS := 0
+obj/extern_classpracprotected.o: src/extern_classpracprotected.cpp
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'extern_classpracprotected'
+#  Last modified 2025-02-23 22:10:18.973058856
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := obj/extern_classpracprotected.o
+# automatic
+# * := extern_classpracprotected
+# automatic
+# < := src/extern_classpracprotected.cpp
+# automatic
+# + := src/extern_classpracprotected.cpp
+# automatic
+# % := 
+# automatic
+# ^ := src/extern_classpracprotected.cpp
+# automatic
+# ? := src/extern_classpracprotected.cpp
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=9/32=28%, Rehash=0, Collisions=1/26=4%
+#  recipe to execute (from 'Makefile', line 35):
+	@mkdir -p $(dir $@)  # Create the necessary directories
+	$(CXX) $(CXXFLAGS) $(INC_FLAGS) -c $< -o $@
+
+# Not a target:
+obj/DBMS/DBMS_CLOSE/DBMS_Close.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/extern_classpracprivate.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/extern_classparamconstruc.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -247,20 +371,102 @@ all:
 #  Modification time never checked.
 #  File has not been updated.
 
+all: bin/CPP_PRACISE.elf
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/13=0%
+
+# Not a target:
+obj/externalstructexample1.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+/ui_%.h: src/GUI /%.ui
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	uic $< -o $@
+
+bin/CPP_PRACISE.elf: obj/extern_classpracprotected.o obj/extern_classparamconstruc.o obj/extern_practisesecond.o obj/variablelist.o obj/extern_classpractise1.o obj/externalstructexample1.o obj/DBMS/DBMS_INIT/DBMS_Init.o obj/DBMS/DBMS_CLOSE/DBMS_Close.o obj/main.o obj/size.o obj/GUI/GUI_View.o obj/extern_classpracprivate.o obj/extern_classpractise2.o obj/ext_time.o
+#  Implicit rule search has not been done.
+#  Last modified 2025-02-23 22:10:18.953058738
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/13=0%
+#  recipe to execute (from 'Makefile', line 30):
+	mkdir -p $(BIN_DIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)
+
+# Not a target:
+obj/extern_practisesecond.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/GUI/GUI_View.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+/%.ui:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/extern_classpractise2.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/DBMS/DBMS_INIT/DBMS_Init.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+obj/size.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: all clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+src/GUI: src/GUI /%.ui
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 40):
+	uic $< -o $@
+
 # files hash-table stats:
-# Load=4/1024=0%, Rehash=0, Collisions=0/14=0%
+# Load=25/1024=2%, Rehash=0, Collisions=2/60=3%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 4 / storage = 50 B / avg = 12 B
-# current buf: size = 8162 B / used = 50 B / count = 4 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 45 / storage = 700 B / avg = 15 B
+# current buf: size = 8162 B / used = 700 B / count = 45 / avg = 15 B
 
-# strcache performance: lookups = 6 / hit rate = 33%
+# strcache performance: lookups = 63 / hit rate = 28%
 # hash-table stats:
-# Load=4/8192=0%, Rehash=0, Collisions=0/6=0%
-# Finished Make data base on Fri Oct 01 11:53:04 2021
+# Load=45/8192=1%, Rehash=0, Collisions=0/63=0%
+# Finished Make data base on Sun Feb 23 22:12:44 2025
 
  

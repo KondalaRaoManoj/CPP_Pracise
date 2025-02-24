@@ -23,10 +23,14 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 
 
-find_package(Qt5 CONFIG REQUIRED COMPONENTS Core Gui Widgets)
+find_package(Qt6 CONFIG REQUIRED COMPONENTS Core Gui Widgets)
 
 
 # Define directories
+
+# Set Qt installation path if needed
+set(CMAKE_PREFIX_PATH "/lib/x86_64-linux-gnu/qt5")
+
 set(SRC_DIR "${CMAKE_SOURCE_DIR}/src")
 set(UI_DIR  "${SRC_DIR}/GUI")
 set(UI_GEN_DIR "${CMAKE_BINARY_DIR}/ui_gen")  # Directory for generated UI headers
@@ -48,7 +52,7 @@ file(GLOB_RECURSE UI_FILES "${UI_DIR}/*.ui")
 message(STATUS "UI files found: ${UI_FILES}")
 
 # Process .ui files to generate headers using qt5_wrap_ui
-qt5_wrap_ui(UI_HEADERS_GEN ${UI_FILES})
+#qt6_wrap_ui(UI_HEADERS_GEN ${UI_FILES})
 message(STATUS "Generated UI headers: ${UI_HEADERS_GEN}")
 
 # Combine manually written headers with generated UI headers (for IDE dependency tracking)
@@ -70,7 +74,7 @@ include_directories(${SRC_DIR} ${UI_GEN_DIR} ${HEADER_DIRS})
 add_executable(${PROJECT_NAME} ${SOURCES} ${ALL_HEADERS})
 
 # Link against Qt libraries
-target_link_libraries(${PROJECT_NAME} Qt5::Core Qt5::Gui Qt5::Widgets)
+target_link_libraries(${PROJECT_NAME} Qt6::Core Qt6::Gui Qt6::Widgets)
 
 # Set the output directory for the executable
 set_target_properties(${PROJECT_NAME} PROPERTIES

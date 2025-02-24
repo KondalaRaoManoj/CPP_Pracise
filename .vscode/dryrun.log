@@ -1,9 +1,40 @@
-make.exe all -f "G:\C++\24_09_2021\Makefile" --dry-run --always-make --keep-going --print-directory
-make.exe: Entering directory 'g:/C++/29_09_2021/CPP_Pracise'
-make.exe: Leaving directory 'g:/C++/29_09_2021/CPP_Pracise'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/kondalaraomanoj/Projects/CPP_PRACTISE/CPP_Pracise'
  
-make.exe: G:\C++\24_09_2021\Makefile: No such file or directory
-make.exe: *** No rule to make target 'G:\C++\24_09_2021\Makefile'.
-make.exe: Failed to remake makefile 'G:\C++\24_09_2021\Makefile'.
-make.exe: *** No rule to make target 'all'.
+Makefile:39: *** mixed implicit and normal rules: deprecated syntax
+
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/extern_classpracprotected.cpp -o obj/extern_classpracprotected.o
+ 
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/extern_classparamconstruc.cpp -o obj/extern_classparamconstruc.o
+ 
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/extern_practisesecond.cpp -o obj/extern_practisesecond.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/variablelist.cpp -o obj/variablelist.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/extern_classpractise1.cpp -o obj/extern_classpractise1.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/externalstructexample1.cpp -o obj/externalstructexample1.o
+mkdir -p obj/DBMS/DBMS_INIT/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/DBMS/DBMS_INIT/DBMS_Init.cpp -o obj/DBMS/DBMS_INIT/DBMS_Init.o
+mkdir -p obj/DBMS/DBMS_CLOSE/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/DBMS/DBMS_CLOSE/DBMS_Close.cpp -o obj/DBMS/DBMS_CLOSE/DBMS_Close.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/main.cpp -o obj/main.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/size.cpp -o obj/size.o
+mkdir -p obj/GUI/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/GUI/GUI_View.cpp -o obj/GUI/GUI_View.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/extern_classpracprivate.cpp -o obj/extern_classpracprivate.o
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/extern_classpractise2.cpp -o obj/extern_classpractise2.o
+ 
+mkdir -p obj/  # Create the necessary directories
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB   -I./src/DBMS/DBMS_CLOSE  -I./src/DBMS/DBMS_INIT  -I./src/GUI -c src/ext_time.cpp -o obj/ext_time.o
+mkdir -p bin
+g++ -Wall -Wextra -std=c++17 -g -fPIC -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtGui -DQT_WIDGETS_LIB -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -DQT_GUI_LIB -DQT_CORE_LIB  -o bin/CPP_PRACISE.elf obj/extern_classpracprotected.o obj/extern_classparamconstruc.o obj/extern_practisesecond.o obj/variablelist.o obj/extern_classpractise1.o obj/externalstructexample1.o obj/DBMS/DBMS_INIT/DBMS_Init.o obj/DBMS/DBMS_CLOSE/DBMS_Close.o obj/main.o obj/size.o obj/GUI/GUI_View.o obj/extern_classpracprivate.o obj/extern_classpractise2.o obj/ext_time.o -lQt5Widgets -lQt5Gui -lQt5Core 
+make: Leaving directory '/home/kondalaraomanoj/Projects/CPP_PRACTISE/CPP_Pracise'
  
